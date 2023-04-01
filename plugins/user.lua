@@ -10,13 +10,5 @@ return {
   --   end,
   -- },
   --"github/copilot.vim",
-  {
-  "zbirenbaum/copilot.lua",
-  cmd = "Copilot",
-  event = "InsertEnter",
-  config = function()
-    require("copilot").setup({})
-  end,
-  },
   { "catppuccin/nvim", name = "catppuccin" },
 }
